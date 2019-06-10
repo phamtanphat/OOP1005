@@ -2,8 +2,10 @@ package khoapham.ptp.phamtanphat.oop1005;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.AndroidException;
 import android.util.Log;
+
+import khoapham.ptp.phamtanphat.oop1005.Person;
+import khoapham.ptp.phamtanphat.oop1005.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,5 +29,10 @@ public class MainActivity extends AppCompatActivity {
         // mvvm , architecture , mvp , mvc
         //1 : Tính thừa kế
         // thừa kế : Người cha sẽ cho con thuộc tính và hành vi
+        Child teo = new Child();
+        teo.ten = "nguyen Van Teo ";
+        teo.setNgonngu("Tieng han quoc");
+
+        Log.d("BBB",teo.getNgonngu());
     }
 }

@@ -1,7 +1,5 @@
 package khoapham.ptp.phamtanphat.oop1005;
 
-import android.util.Log;
-
 public class Person {
     //Thuoc tinh
      String ten;
@@ -40,4 +38,11 @@ public class Person {
 //        this.ngonngu = ngonngu;
 //    }
 
+    public final String getNgonngu() {
+        return ngonngu;
+    }
+
+    public  void setNgonngu(String ngonngu) {
+        this.ngonngu = ngonngu;
+    }
 }
