@@ -29,10 +29,8 @@ public class MainActivity extends AppCompatActivity {
         // mvvm , architecture , mvp , mvc
         //1 : Tính thừa kế
         // thừa kế : Người cha sẽ cho con thuộc tính và hành vi
-        Child teo = new Child();
-        teo.ten = "nguyen Van Teo ";
-        teo.setNgonngu("Tieng han quoc");
+        // khi kế thừa chỉ được thêm không được xóa
+        Uncle uncle= new Uncle("Bác tèo" , "60","Tiếng việt" ,"ACB");
 
-        Log.d("BBB",teo.getNgonngu());
     }
 }
