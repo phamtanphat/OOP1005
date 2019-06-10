@@ -7,4 +7,5 @@ public class Child extends Person {
         super(ten,tuoi,ngonngu);
         this.sothich = sothich;
     }
+
 }

@@ -37,6 +37,13 @@ public class MainActivity extends AppCompatActivity {
 //                + Sử dụng final ngăn chặn việc thay đổi
 //                + Sử dụng static cho thuộc tính đã có sẵn
 //        Uncle uncle= new Uncle("Bác tèo" , "60","Tiếng việt" ,"ACB");
-
+        tinhhinh(10,5);
+    }
+    //Phuong thuc nap chong : overload
+    private void tinhhinh(int dai , int rong){
+        Log.d("BBB",dai * rong + "");
+    }
+    private void tinhhinh(int bankinh ){
+        Log.d("BBB",Math.PI * Math.pow(bankinh,2) + "");
     }
 }
