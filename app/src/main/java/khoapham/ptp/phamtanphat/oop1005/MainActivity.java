@@ -30,7 +30,13 @@ public class MainActivity extends AppCompatActivity {
         //1 : Tính thừa kế
         // thừa kế : Người cha sẽ cho con thuộc tính và hành vi
         // khi kế thừa chỉ được thêm không được xóa
-        Uncle uncle= new Uncle("Bác tèo" , "60","Tiếng việt" ,"ACB");
+        //50 %
+//                + Khi kế thừa bạn được gì( Thuộc tính và hành vi ngta cho)
+//                + Bị ràng buộc về gì (Phải tuân theo constructor của ngta và không xóa gì chỉ được thêm)
+        //80 % :
+//                + Sử dụng final ngăn chặn việc thay đổi
+//                + Sử dụng static cho thuộc tính đã có sẵn
+//        Uncle uncle= new Uncle("Bác tèo" , "60","Tiếng việt" ,"ACB");
 
     }
 }
