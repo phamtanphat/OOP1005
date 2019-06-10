@@ -37,13 +37,39 @@ public class MainActivity extends AppCompatActivity {
 //                + Sử dụng final ngăn chặn việc thay đổi
 //                + Sử dụng static cho thuộc tính đã có sẵn
 //        Uncle uncle= new Uncle("Bác tèo" , "60","Tiếng việt" ,"ACB");
-        tinhhinh(10,5);
+//        tinhhinh(10,5);
+//    bt Tinh ke thua
+
+//        + Giám đốc :
+//            - private tên: Khoa " Khoa pham";
+//            - private tuổi : 30;
+//            - Constructor
+//                + Android: + "phat"
+//                    -Tên : phat;
+//                    -tuoi : 25;
+//                    -Que quan : "Củ chi"
+//                + Php: + "huong"
+//                    -Tên : hương;
+//                    -tuoi : 25;
+//                    -Trang thai : "Độc thân"
+//                + ios: + "Quan"
+//                    -Tên : Quân;
+//                    -tuoi : 27;
+//                    -Số nhà : 92 nguyên lâm
+//            - Khi truy cập vào người nào thì gắn tên người đó sau mỗi dữ liệu
+    //Phuong thuc nap chong dien tich , chu vi:
+            // + Tinh hình thang
+            // + tinh hình tron
+            //+ Tam giac
+            //+ Hinh tam giac vuong
+
+            // //+ Tinh độ dài 2 điểm(Tạo 1 object điểm truyên 2 object vào để xử lý điểm)
     }
     //Phuong thuc nap chong : overload
-    private void tinhhinh(int dai , int rong){
-        Log.d("BBB",dai * rong + "");
-    }
-    private void tinhhinh(int bankinh ){
-        Log.d("BBB",Math.PI * Math.pow(bankinh,2) + "");
-    }
+//    private void tinhhinh(int dai , int rong){
+//        Log.d("BBB",dai * rong + "");
+//    }
+//    private void tinhhinh(int bankinh ){
+//        Log.d("BBB",Math.PI * Math.pow(bankinh,2) + "");
+//    }
 }
