@@ -16,11 +16,12 @@ public class MainActivity extends AppCompatActivity {
         //access modifier : public , private , protected
         //non-access modifier : final , interface , static , ...
         //final khong duoc gan lai nhung co quyen thay doi thuoc tinh
-//
+//      finnal phạm vi truy cập giống private
 //        ten[0] = "Phat";
 //        Log.d("BBB",ten[0]);
         //static : tuong trung cho viec khong can khoi tao van goi duoc nó
-        Log.d("BBB",Person.noisong);
+        //static phạm vi sử dụng giống public
+//        Log.d("BBB",Person.noisong);
 
     }
 }
