@@ -23,5 +23,9 @@ public class MainActivity extends AppCompatActivity {
         //static phạm vi sử dụng giống public
 //        Log.d("BBB",Person.noisong);
 
+        //viết code người hiểu viết gì
+        // mvvm , architecture , mvp , mvc
+        //1 : Tính thừa kế
+        // thừa kế : Người cha sẽ cho con thuộc tính và hành vi
     }
 }
