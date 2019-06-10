@@ -7,6 +7,7 @@ public class Person {
     private String ten;
     private String tuoi;
     private String ngonngu;
+    static String noisong = "Trái đất";
 
     //alt + insert
     //Phuong thuc khoi tao
