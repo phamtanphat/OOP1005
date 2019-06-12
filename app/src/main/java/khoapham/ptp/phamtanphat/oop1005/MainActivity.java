@@ -32,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
         //1 : Tính thừa kế
         // thừa kế : Người cha sẽ cho con thuộc tính và hành vi
         // khi kế thừa chỉ được thêm không được xóa
+        //Khi kết thừa dùng extend cho 1 đối tượng duy nhất
+        //2 : Bao dong: nap chồng và ghi đè
+        //Giồng : tên phương thức
+        //Khác :
+        // ghi đè : thân hàm (kết thừa )
+        //nap chông :tham số truyền vào(Xử lý nội bộ trong class)
+        //
         //50 %
 //                + Khi kế thừa bạn được gì( Thuộc tính và hành vi ngta cho)
 //                + Bị ràng buộc về gì (Phải tuân theo constructor của ngta và không xóa gì chỉ được thêm)
@@ -63,12 +70,13 @@ public class MainActivity extends AppCompatActivity {
             // + tinh hình tron
             //+ Tam giac
             //+ Hinh tam giac vuong
-            Android phat = new Android("Pham tan phat","25","Củ chi");
-            phat.showInfo(phat.getQuequan());
-            Giamdoc giamdoc = new Giamdoc("Pham truong dang khoa","30");
-            giamdoc.showInfo(giamdoc.getTuoi());
+//            Android phat = new Android("Pham tan phat","25","Củ chi");
+//            phat.showInfo(phat.getQuequan());
+//            Giamdoc giamdoc = new Giamdoc("Pham truong dang khoa","30");
+//            giamdoc.showInfo(giamdoc.getTuoi());
             // //+ Tinh độ dài 2 điểm(Tạo 1 object điểm truyên 2 object vào để xử lý điểm)
-
+//        tinhDientich(3,5,10);
+        tinhDientich(3,10);
     }
     //Phuong thuc nap chong : overload
 //    private void tinhhinh(int dai , int rong){
@@ -77,4 +85,23 @@ public class MainActivity extends AppCompatActivity {
 //    private void tinhhinh(int bankinh ){
 //        Log.d("BBB",Math.PI * Math.pow(bankinh,2) + "");
 //    }
+    private void tinhDientich(int h , int a , int b){
+        // Khi convert gia tri thì nó convert rồi gán sau
+        //Type casting
+        float ketqua = (float) 1/2 * h * (a + b);
+        Log.d("BBB", "Diện tích hình thang : "  + ketqua);
+    }
+    private void tinhDientich(int r){
+        // Khi convert gia tri thì nó convert rồi gán sau
+        //Type casting
+        double ketqua = Math.PI * Math.pow(r,2);
+        Log.d("BBB", "Diện tích hình tròn : "  + ketqua);
+    }
+    private void tinhDientich(int canhday , int chieucao){
+        // Khi convert gia tri thì nó convert rồi gán sau
+        //Type casting
+        float ketqua = (float) 1/2 * canhday * chieucao;
+        Log.d("BBB", "Diện tích tam giác : "  + ketqua);
+    }
+
 }

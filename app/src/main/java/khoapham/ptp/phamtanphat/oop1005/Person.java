@@ -32,8 +32,8 @@ public class Person {
     public void setTuoi(String tuoi) {
         this.tuoi = tuoi;
     }
-    public  void showInfo(String value){
-        Log.d("BBB",value + " :  " + this.ten);
+    public void showInfo(String value){
+        Log.d("BBB",value );
     }
 
 }
