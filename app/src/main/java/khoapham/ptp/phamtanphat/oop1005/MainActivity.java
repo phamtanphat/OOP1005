@@ -63,7 +63,10 @@ public class MainActivity extends AppCompatActivity {
             // + tinh hình tron
             //+ Tam giac
             //+ Hinh tam giac vuong
-
+            Android phat = new Android("Pham tan phat","25","Củ chi");
+            phat.showInfo(phat.getQuequan());
+            Giamdoc giamdoc = new Giamdoc("Pham truong dang khoa","30");
+            giamdoc.showInfo(giamdoc.getTuoi());
             // //+ Tinh độ dài 2 điểm(Tạo 1 object điểm truyên 2 object vào để xử lý điểm)
 
     }
