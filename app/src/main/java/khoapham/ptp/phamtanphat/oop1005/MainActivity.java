@@ -3,6 +3,8 @@ package khoapham.ptp.phamtanphat.oop1005;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 import khoapham.ptp.phamtanphat.oop1005.Person;
 import khoapham.ptp.phamtanphat.oop1005.R;
@@ -36,10 +38,9 @@ public class MainActivity extends AppCompatActivity {
         //80 % :
 //                + Sử dụng final ngăn chặn việc thay đổi
 //                + Sử dụng static cho thuộc tính đã có sẵn
-//        Uncle uncle= new Uncle("Bác tèo" , "60","Tiếng việt" ,"ACB");
+//
 //        tinhhinh(10,5);
 //    bt Tinh ke thua
-
 //        + Giám đốc :
 //            - private tên: Khoa " Khoa pham";
 //            - private tuổi : 30;
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
             //+ Hinh tam giac vuong
 
             // //+ Tinh độ dài 2 điểm(Tạo 1 object điểm truyên 2 object vào để xử lý điểm)
+
     }
     //Phuong thuc nap chong : overload
 //    private void tinhhinh(int dai , int rong){
